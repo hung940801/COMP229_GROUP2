@@ -2,7 +2,7 @@ let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
 let passport = require('passport');
-// let Book = require('../models/books');
+// let Book = require('../models/bookss');
 let bookController = require('../controllers/book');
 // helper function for guard purposes
 function requireAuth(req, res, next) {
